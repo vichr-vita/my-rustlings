@@ -10,17 +10,43 @@
 //
 // Execute `rustlings hint hashmaps1` or use the `hint` watch subcommand for a hint.
 
-// I AM NOT DONE
 
 use std::collections::HashMap;
 
 fn fruit_basket() -> HashMap<String, u32> {
-    let mut basket = // TODO: declare your hash map here.
+    let mut basket = HashMap::new();
 
     // Two bananas are already given for you :)
     basket.insert(String::from("banana"), 2);
-
-    // TODO: Put more fruits in your basket here.
+    // DONE: Put more fruits in your basket here.
+    basket.insert(String::from("apple"), 10);
+    basket.insert(String::from("orange"), 10);
+    basket.insert(String::from("grape"), 10);
+    basket.insert(String::from("mango"), 10);
+    basket.insert(String::from("pineapple"), 10);
+    basket.insert(String::from("strawberry"), 10);
+    basket.insert(String::from("blueberry"), 10);
+    basket.insert(String::from("raspberry"), 10);
+    basket.insert(String::from("blackberry"), 10);
+    basket.insert(String::from("watermelon"), 10);
+    basket.insert(String::from("melon"), 10);
+    basket.insert(String::from("kiwi"), 10);
+    basket.insert(String::from("pear"), 10);
+    basket.insert(String::from("peach"), 10);
+    basket.insert(String::from("plum"), 10);
+    basket.insert(String::from("cherry"), 10);
+    basket.insert(String::from("apricot"), 10);
+    basket.insert(String::from("coconut"), 10);
+    basket.insert(String::from("papaya"), 10);
+    basket.insert(String::from("pomegranate"), 10);
+    basket.insert(String::from("guava"), 10);
+    basket.insert(String::from("lemon"), 10);
+    basket.insert(String::from("lime"), 10);
+    basket.insert(String::from("cantaloupe"), 10);
+    basket.insert(String::from("honeydew"), 10);
+    basket.insert(String::from("nectarine"), 10);
+    basket.insert(String::from("tangerine"), 10);
+    basket.insert(String::from("clementine"), 10);
 
     basket
 }
